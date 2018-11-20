@@ -1,0 +1,65 @@
+body { 
+    background:      url('images/background.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.container {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.weather {
+    width: auto;
+    height: auto;
+    margin: 5%;
+    background-color: rgba(210, 210, 210, 0.5);
+    display: table;
+}
+
+.weather-date, .weather-time {
+    padding: 0 0 0 3px;
+}
+
+.weather-today {
+    padding: 100px 0 0 0;
+}
+
+.weather-today__icon--img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 0 0 0 15px;
+}
+
+.weather-today__temperature--text {
+    font-size: 80;
+    padding: 0 5px 0 125px;
+}
+
+.weather-today__temperature--unit-centigrades {
+    font-size: 35;
+}
+
+.weather-location {
+    font-size: 40;
+    padding: 0 0 0 5px;
+}
+
+.weather-extras {
+    padding: 20px 0 0 5px;
+}
+
+.forecast {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgba(210, 210, 210, 0.5);
+    display: table;
+    font-size: 25;
+}
+
+.day__block {
+    float:   left;
+    padding: 40px;
+    width:   12.5%;
+}
