@@ -33,4 +33,4 @@ day.axios.get(root + '/' + forecastPath + '?q=' + city + '&APPID=' + forecastApi
     daysMax.innerHTML = Math.round(response.data.list[index].main.temp_max);
     let daysMax = document.querySelector('day__block-temp--min');
     daysMax.innerHTML = Math.round(response.data.list[index].main.temp_min);
-})};
+})});
